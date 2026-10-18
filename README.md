@@ -53,7 +53,7 @@ CareerHive is being developed by:
 
 - [Myra Rafiq](https://www.linkedin.com/in/myrarafiq/) ['myrarafiq'](https://github.com/myrarafiq)
 - Tony Zhou ['TonyyZhou'](https://github.com/TonyyZhou)
-- [Abubakar Diallo](linkedin.com/in/dialloni/) ['Dialloni'](https://github.com/Dialloni) 
+- [Abubakar Diallo](https://www.linkedin.com/in/dialloni/) ['Dialloni'](https://github.com/Dialloni) 
 
 
 ## Repository Structure
