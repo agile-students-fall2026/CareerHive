@@ -5,6 +5,18 @@ This document has the app map and wireframes for the Minimum Viable Product (MVP
 - [`app-map.drawio`](./ux-design/app-map.drawio.xml): the app map
 - [`wireframes.drawio`](./ux-design/wireframes.drawio.xml): all wireframes, one page per screen
 
+## Prototype
+
+**[View the clickable prototype on Figma](https://www.figma.com/proto/R4lliiZKlfzQkVtCScmLcN/CareerHive-Prototype?node-id=1-2&starting-point-node-id=1-2)**
+
+The prototype was built in [Figma](https://www.figma.com/prototyping/) using the wireframes below as its screens ([editor view](https://www.figma.com/design/R4lliiZKlfzQkVtCScmLcN/CareerHive-Prototype)). It starts on the **Welcome** screen.
+
+- Every button and link that moves between screens is clickable, including the menu on every logged-in screen.
+- Pop-ups and overlays open and close: the menu, filters, Save to Tracker, AI Match analysis, New Post, Update Stage, and the Remove confirmation.
+- Tapping "Log In" the first time shows the error screen, so both versions of Log In can be seen. Tapping "Log In" again goes to Home.
+- Closing the menu returns to whichever screen it was opened from.
+- Longer screens scroll.
+
 ## App Map
 
 The app map shows the main screens of CareerHive and how they relate to each other as parent and child screens.
@@ -224,9 +236,3 @@ Shows the info the user entered during Profile Setup: education, skills, the typ
 The same form as Profile Setup, with the user's current info already filled in. Users can also change their name and profile photo here. "Save Changes" updates their profile, and job recommendations and match scores change to reflect it. "Cancel" goes back without saving.
 
 <img src="./ux-design/wireframes-21-edit-profile.drawio.png" alt="Edit Profile wireframe" width="300">
-
----
-
-## Prototype
-
-The clickable prototype is being built from these wireframes as part of Sprint 0, Part B. A link to it will be added here once it's done.
