@@ -51,9 +51,9 @@ A typical CareerHive user goes through these steps:
 
 CareerHive is being developed by:
 
-- [Myra Rafiq](https://www.linkedin.com/in/myrarafiq/)['myrarafiq'](https://github.com/myrarafiq)
-- Tony Zhou['TonyyZhou'](https://github.com/TonyyZhou)
-- [Abubakar Diallo](linkedin.com/in/dialloni/)['Dialloni'](https://github.com/Dialloni) 
+- [Myra Rafiq](https://www.linkedin.com/in/myrarafiq/) ['myrarafiq'](https://github.com/myrarafiq)
+- Tony Zhou ['TonyyZhou'](https://github.com/TonyyZhou)
+- [Abubakar Diallo](linkedin.com/in/dialloni/) ['Dialloni'](https://github.com/Dialloni) 
 
 
 ## Repository Structure
