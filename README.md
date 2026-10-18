@@ -1,77 +1,69 @@
-# Project Title
+# CareerHive
 
-CareerHive
+**Your whole job search, in one place.**
 
-## What and why?
+CareerHive is a mobile web app that helps college students and recent graduates manage their whole internship and job search in one place, from finding opportunities to keeping track of deadlines and applications.
 
-CareerHive is a mobile web application that helps college students and recent graduates manage their entire internship and job search in one place.
+## Product Vision
 
-The current job search process is highly fragmented. Students often search for opportunities across LinkedIn, Handshake, company career pages, school emails, and other job boards. After finding a position, they still need to remember the application deadline, decide whether the position is a good fit, keep track of their application status, and search elsewhere for information about the hiring process.
+For college students and recent graduates applying to internships and entry-level jobs, CareerHive is one place to find opportunities, track applications, stay on top of deadlines, and figure out which roles are actually worth applying to.
 
-This becomes especially difficult when someone is applying to many positions at the same time. Important opportunities can be forgotten, deadlines can be missed, and applicants may spend a lot of time applying to positions that are not a strong match for their background.
+Most job boards only help you find a posting. CareerHive helps with everything that happens after that too: saving and organizing applications by stage, reminding you about deadlines, using AI to explain how well a job matches your background, showing visa sponsorship info clearly, and letting applicants share what they know about the hiring process.
 
-International students face an additional problem because visa sponsorship and work authorization information is often difficult to find or unclear.
+Our goal is to make the job search less scattered and stressful, especially for students applying to a lot of positions at once and for international students who need sponsorship information.
 
-CareerHive would bring job discovery, application tracking, deadlines, AI-assisted job matching, sponsorship information, and community discussion into one platform. The goal is not simply to create another job board, but to make the entire job search process easier to organize, understand, and manage.
+## The Problem
 
-## For whom?
+Students look for jobs across LinkedIn, Handshake, company career pages, school emails, and other job boards. Once they find a position, they still have to remember the deadline, decide if it's a good fit, keep track of where their application stands, and look somewhere else to learn about the hiring process.
 
-CareerHive would initially be designed for college students and recent graduates who are actively applying for internships and entry-level jobs.
+When someone is applying to dozens of positions at the same time, it gets easy to forget opportunities, miss deadlines, or spend time on roles that aren't a good match for their background.
 
-Our first end-users could be NYU students and recent graduates in our own networks who are currently going through the internship or job application process. Because these are real users we can communicate with directly, we would be able to ask about their current job-search habits, learn which parts of the process are most frustrating, and collect feedback as the product develops.
+International students have another problem on top of that: information about visa sponsorship and work authorization is often hard to find or unclear.
 
-The application would also be especially useful for international students, who often need to consider work authorization and employer sponsorship before deciding whether an opportunity is worth pursuing.
+## Our Solution
 
-Although the first version would focus on students and recent graduates, the idea could eventually be expanded to a wider group of job seekers.
+CareerHive brings the main parts of the job search into one app. Users can:
 
-## How?
+- create a profile with their major, graduation date, skills, interests, preferred job types, and locations
+- browse and search internships and entry-level jobs
+- filter by job type, location, deadline, and visa sponsorship
+- see job details, including deadlines, requirements, the official application link, and sponsorship info
+- save jobs to a personal tracker and move them through stages (Saved, Preparing, Applied, Interview, Offer, Rejected)
+- see all upcoming application deadlines in one list
+- get an AI match analysis that compares their profile with a job description, explains why it might or might not be a good fit, and points out missing skills
+- read and post in a public discussion for each job listing about interview timelines, online assessments, sponsorship, and application updates
 
-A user would begin by creating a profile containing information such as their major, graduation year, skills, career interests, preferred job types, and preferred locations.
+To keep the first version realistic, CareerHive focuses only on internships and entry-level jobs and uses a smaller, controlled set of listings instead of pulling postings from every job site.
 
-Users would then be able to browse internships and entry-level job opportunities. Each opportunity could include information such as:
+## Core User Journey
 
-- Company name
-- Position title
-- Location
-- Application deadline
-- Job requirements
-- Official application link
-- Visa sponsorship or work authorization information, when available
+A typical CareerHive user goes through these steps:
 
-Users could save opportunities they are interested in and add them to a personal application tracker. Applications could be organized into stages such as:
+1. A student signs up and sets up their profile.
+2. They browse or search for internships and entry-level jobs that fit their interests.
+3. They open a job to check the details, sponsorship info, and AI match analysis.
+4. They read the discussion to learn what other applicants have experienced.
+5. They save the job to their tracker and apply on the company's site.
+6. They update the application's stage as they hear back, and add notes along the way.
+7. They check Home and Deadlines to see what needs their attention next.
 
-- Saved
-- Preparing
-- Applied
-- Interview
-- Offer
-- Rejected
+## Team
 
-CareerHive would also show upcoming application deadlines so users can quickly see which opportunities need their attention.
+CareerHive is being developed by:
 
-AI-assisted features would help users decide which opportunities are most relevant to them. For example, CareerHive could compare a user's profile with a job description and explain why the position may or may not be a strong match. It could summarize important qualifications and point out skills or experience that the user may be missing.
+- [Myra Rafiq](https://www.linkedin.com/in/myrarafiq/) ['myrarafiq'](https://github.com/myrarafiq)
+- Tony Zhou ['TonyyZhou'](https://github.com/TonyyZhou)
+- [Abubakar Diallo](linkedin.com/in/dialloni/) ['Dialloni'](https://github.com/Dialloni) 
 
-Each job listing could also contain a public discussion section. Users could share information and ask questions about a specific opportunity, including interview timelines, online assessments, application updates, recruiting experiences, and sponsorship information. This would allow applicants to learn from other people going through the same process instead of searching across several different online communities.
 
-A possible future freemium model could keep basic job discovery, tracking, deadlines, and community features free, while offering more advanced AI features such as personalized job rankings and detailed fit analysis as optional premium features.
+## Repository Structure
 
-## Scope
-
-CareerHive has enough features to provide meaningful work for a team of approximately four to six programmers over one semester
-
-The core version would include:
-
-- User accounts and profiles
-- Internship and entry-level job listings
-- Saved opportunities
-- Application tracking
-- Deadline management
-- Visa sponsorship information
-- AI-assisted job matching
-- Public discussions for individual job listings
-
-To keep the project realistic, the first version would focus only on internships and entry-level jobs rather than every type of career opportunity.
-
-It would also not attempt to automatically collect every job posting from every job website. The initial version could use a smaller set of opportunities and allow listings to be added in a controlled way. More advanced job aggregation could be considered in the future.
-
-The project contains several separate but connected features that can be divided among team members, while still producing one complete and useful product by the end of the semester.
+```
+CareerHive/
+├── front-end/       # React front-end application
+├── back-end/        # Express back-end application
+├── ux-design/       # App map, wireframes, and UX design files
+├── README.md
+├── CONTRIBUTING.md
+└── UX-DESIGN.md
+```
