@@ -3,9 +3,12 @@
 This document has the app map and wireframes for the Minimum Viable Product (MVP) of CareerHive. They were made in [draw.io](https://draw.io). The source files and exported PNGs are in the [`ux-design`](./ux-design) folder:
 
 - [`app-map.drawio`](./ux-design/app-map.drawio.xml): the app map
-- [`wireframes.drawio`](./ux-design/wireframes.drawio.xml): all wireframes, one page per screen
+- [`wireframes.drawio`](./ux-design/wireframes.drawio): the main editable wireframe source, one page per screen
+- [`wireframes.drawio.xml`](./ux-design/wireframes.drawio.xml): a matching XML copy; regenerate it from the main drawing after edits
 
 ## Prototype
+
+**Prototype refresh pending:** The PNGs in this repository have been re-exported with square corners and square selection/timeline indicators. Replace the corresponding images in the linked Figma prototype and retest its interactions before treating it as synchronized with these wireframes.
 
 **[View the clickable prototype on Figma](https://www.figma.com/proto/R4lliiZKlfzQkVtCScmLcN/CareerHive-Prototype?node-id=1-2&starting-point-node-id=1-2)**
 
@@ -32,10 +35,11 @@ The app map shows the main screens of CareerHive and how they relate to each oth
 
 Some notes that apply to all of the wireframes:
 
-- They're all designed for a mobile screen, and every diagram is the same width (360px). Heights change depending on how much content a screen has, and longer screens scroll.
+- They're all designed for a mobile screen, with a 360px source screen width and consistent 362px PNG exports including the outline. Heights change depending on how much content a screen has, and longer screens scroll within a consistent phone viewport in the prototype.
 - The header, with the logo on the left and the menu button (three lines) on the right, sits in the same spot on every screen. The menu button only shows up once the user is logged in.
 - Gray boxes are placeholders for images, like company logos and user photos.
 - Underlined text is a link. Dark buttons are the main action on a screen, and outlined buttons are secondary actions.
+- Corners and selection/timeline indicators are square to follow the presentation feedback. Stage selectors still allow only one stage at a time; the filled square marks the current selection.
 - Names, companies, and jobs are all made up and are not real. They're only there to show what kind of content goes in each spot.
 
 ---
